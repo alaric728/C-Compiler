@@ -1,0 +1,18 @@
+class Foo {
+      int _x;
+      int _y;
+      Foo(int a,int b) {
+      	      this._x = a;
+	      _y = b;
+      }
+};
+
+class Main {
+      int _x;
+      Foo f;
+      Main() {
+        _x = 0;
+	//Foo f;
+	f = new Foo(5,6);
+      }
+};

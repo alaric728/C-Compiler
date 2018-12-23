@@ -1,0 +1,9 @@
+class Main {
+      int _x;
+      Main() {
+        _x = 0;
+        if (_x == 1) {
+           _x = _x + 1;
+        }
+      }
+};

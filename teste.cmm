@@ -1,0 +1,14 @@
+class Main {
+	Main() {
+		int a;
+		int[] t;
+		a = 10;
+		t = new int[a];
+		t[0] = 1;
+		t[a-1] = 2;
+		t[a-2] = foo(a);
+	}	
+	int foo(int x) {
+		return x + 1;
+	}
+};

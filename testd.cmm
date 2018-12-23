@@ -1,0 +1,24 @@
+class Me {
+	int a;
+	int b;
+	Me() {
+		int c;
+		c = 1;
+		a = c;
+		b = c;
+		this.b = c;
+		c = a > 1 || b < 1;
+		c = a!=1 && b!=1;
+		c = a >= 1 || b <= 1;
+		c = a * b;
+		c = a / b;
+		c = a + b;
+		c = a - b;
+		c = !(a > b);
+		c = a <= b && !(a > b);
+	}
+};
+
+class Main {
+	Main() {}	
+};

@@ -1,0 +1,11 @@
+class Main {
+      Main() {
+         int y;
+	 int z;
+	 int w;
+	 z = -y;
+	 if (! (z==y)) {
+	    w = 1;
+	 }	 
+      }
+};

@@ -1,0 +1,6 @@
+class Main {
+    int _x;
+    Main() {
+        _x = 3 + 4;
+    }
+};

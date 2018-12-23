@@ -1,0 +1,37 @@
+class Foo  {
+   int _z;
+   int fact(int n) {
+      return 2*n+1;
+   }
+   int fib(int x) { 
+      return 1;
+   }
+};
+
+// Some comments.
+
+class Main extends Foo {
+   int _y;
+   Main() {
+      int a;
+      a = 0;
+      while (a <= 10) {
+         zoo();
+         a = a + 1;
+      }
+   }
+   void zoo() {
+      int x;
+      x = this.fact(5);      
+      _y = x + 1;
+      _y = _y + 1;
+   }
+   int fact(int n) {
+      if (n==0 || n < 1)
+         return 1;
+      else {
+         return n * this.fact(n-1);
+      }
+   }
+};
+

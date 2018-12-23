@@ -1,0 +1,9 @@
+class Me {
+	int a;
+	int b;
+	Me() {}
+};
+
+class Main {
+	Main() {}	
+};
